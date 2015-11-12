@@ -6,12 +6,12 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "NExT"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 # Specify the date when the site was setup
 #since: 2015
@@ -31,7 +31,7 @@ menu:
   #about: /about
   archives: /archives
   tags: /tags
-  #commonweal: /404.html
+  # commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -71,23 +71,24 @@ menu_icons:
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
 #  - remove  Totally remove sidebar including sidebar toggle icon.
-sidebar: post
-#sidebar: always
-#sidebar: hide
+# sidebar: post
+# sidebar: always
+sidebar: hide
 #sidebar: remove
 
 
 # Social links
-# social:
-  #GitHub:
+social:
+   GitHub: https://github.com/Tsgzj
+   Twitter: https://twitter.com/tsgzj
   #Others:
 
 # Social Icons
 social_icons:
   enable: true
   # Icon Mappings
-  GitHub: github
-  Twitter: twitter
+  GitHub: Tsgzj
+  Twitter: tsgzj
   Weibo: weibo
 
 
@@ -147,7 +148,7 @@ auto_excerpt:
   length: 150
 
 # Use Lato font
-use_font_lato: true
+use_font_lato: false
 
 
 
